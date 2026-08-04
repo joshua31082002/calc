@@ -1,0 +1,246 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.8
+2 info using node@v22.23.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/sandbox/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install react react-dom
+7 verbose argv "install" "react" "react-dom"
+8 verbose logfile logs-max:10 dir:/home/sandbox/.npm/_logs/2026-08-04T18_37_38_272Z-
+9 verbose logfile /home/sandbox/.npm/_logs/2026-08-04T18_37_38_272Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1021313024 maxSize:255328256 maxEntrySize:127664128
+12 silly idealTree buildDeps
+13 silly fetch manifest react@*
+14 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/react 193ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+17 silly fetch manifest react-dom@*
+18 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/react-dom 150ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+21 silly placeDep ROOT react@19.2.8 OK for: sandbox@1.0.0 want: *
+22 silly placeDep ROOT react-dom@19.2.8 OK for: sandbox@1.0.0 want: *
+23 silly fetch manifest scheduler@^0.27.0
+24 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/scheduler 145ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+27 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.8 want: ^0.27.0
+28 silly reify moves {}
+29 silly audit bulk request {
+29 silly audit   '@oxc-project/types': [ '0.142.0' ],
+29 silly audit   '@rolldown/binding-android-arm64': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-darwin-arm64': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-darwin-x64': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-freebsd-x64': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.2.2' ],
+29 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.2.2' ],
+29 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+29 silly audit   '@typescript/typescript-aix-ppc64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-darwin-arm64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-darwin-x64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-freebsd-arm64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-freebsd-x64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-arm': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-arm64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-loong64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-mips64el': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-ppc64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-riscv64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-s390x': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-linux-x64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-netbsd-arm64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-netbsd-x64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-openbsd-arm64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-openbsd-x64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-sunos-x64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-win32-arm64': [ '7.0.2' ],
+29 silly audit   '@typescript/typescript-win32-x64': [ '7.0.2' ],
+29 silly audit   '@vitejs/plugin-react': [ '6.0.5' ],
+29 silly audit   'detect-libc': [ '2.1.2' ],
+29 silly audit   fdir: [ '6.5.0' ],
+29 silly audit   fsevents: [ '2.3.3' ],
+29 silly audit   lightningcss: [ '1.33.0' ],
+29 silly audit   'lightningcss-android-arm64': [ '1.33.0' ],
+29 silly audit   'lightningcss-darwin-arm64': [ '1.33.0' ],
+29 silly audit   'lightningcss-darwin-x64': [ '1.33.0' ],
+29 silly audit   'lightningcss-freebsd-x64': [ '1.33.0' ],
+29 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.33.0' ],
+29 silly audit   'lightningcss-linux-arm64-gnu': [ '1.33.0' ],
+29 silly audit   'lightningcss-linux-arm64-musl': [ '1.33.0' ],
+29 silly audit   'lightningcss-linux-x64-gnu': [ '1.33.0' ],
+29 silly audit   'lightningcss-linux-x64-musl': [ '1.33.0' ],
+29 silly audit   'lightningcss-win32-arm64-msvc': [ '1.33.0' ],
+29 silly audit   'lightningcss-win32-x64-msvc': [ '1.33.0' ],
+29 silly audit   nanoid: [ '3.3.17' ],
+29 silly audit   picocolors: [ '1.1.1' ],
+29 silly audit   picomatch: [ '4.0.5' ],
+29 silly audit   postcss: [ '8.5.25' ],
+29 silly audit   rolldown: [ '1.2.2' ],
+29 silly audit   'source-map-js': [ '1.2.1' ],
+29 silly audit   tinyglobby: [ '0.2.17' ],
+29 silly audit   typescript: [ '7.0.2' ],
+29 silly audit   vite: [ '8.2.0' ],
+29 silly audit   react: [ '19.2.8' ],
+29 silly audit   'react-dom': [ '19.2.8' ],
+29 silly audit   scheduler: [ '0.27.0' ]
+29 silly audit }
+30 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-win32-x64-msvc
+31 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-win32-x64-msvc' ]
+32 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-win32-arm64-msvc
+33 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-win32-arm64-msvc' ]
+34 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-linux-arm64-musl
+35 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-linux-arm64-musl' ]
+36 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-linux-arm64-gnu
+37 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-linux-arm64-gnu' ]
+38 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-linux-arm-gnueabihf
+39 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-linux-arm-gnueabihf' ]
+40 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-freebsd-x64
+41 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-freebsd-x64' ]
+42 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-darwin-x64
+43 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-darwin-x64' ]
+44 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-darwin-arm64
+45 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-darwin-arm64' ]
+46 verbose reify failed optional dependency /home/sandbox/node_modules/lightningcss-android-arm64
+47 silly reify mark deleted [ '/home/sandbox/node_modules/lightningcss-android-arm64' ]
+48 verbose reify failed optional dependency /home/sandbox/node_modules/fsevents
+49 silly reify mark deleted [ '/home/sandbox/node_modules/fsevents' ]
+50 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-win32-x64
+51 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-win32-x64' ]
+52 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-win32-arm64
+53 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-win32-arm64' ]
+54 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-sunos-x64
+55 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-sunos-x64' ]
+56 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-openbsd-x64
+57 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-openbsd-x64' ]
+58 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-openbsd-arm64
+59 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-openbsd-arm64' ]
+60 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-netbsd-x64
+61 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-netbsd-x64' ]
+62 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-netbsd-arm64
+63 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-netbsd-arm64' ]
+64 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-s390x
+65 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-s390x' ]
+66 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-riscv64
+67 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-riscv64' ]
+68 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-ppc64
+69 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-ppc64' ]
+70 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-mips64el
+71 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-mips64el' ]
+72 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-loong64
+73 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-loong64' ]
+74 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-arm64
+75 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-arm64' ]
+76 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-linux-arm
+77 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-linux-arm' ]
+78 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-freebsd-x64
+79 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-freebsd-x64' ]
+80 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-freebsd-arm64
+81 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-freebsd-arm64' ]
+82 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-darwin-x64
+83 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-darwin-x64' ]
+84 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-darwin-arm64
+85 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-darwin-arm64' ]
+86 verbose reify failed optional dependency /home/sandbox/node_modules/@typescript/typescript-aix-ppc64
+87 silly reify mark deleted [ '/home/sandbox/node_modules/@typescript/typescript-aix-ppc64' ]
+88 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-win32-x64-msvc
+89 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-win32-x64-msvc' ]
+90 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-win32-arm64-msvc
+91 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-win32-arm64-msvc' ]
+92 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-openharmony-arm64
+93 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-openharmony-arm64' ]
+94 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-linux-s390x-gnu
+95 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-linux-s390x-gnu' ]
+96 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-linux-ppc64-gnu
+97 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-linux-ppc64-gnu' ]
+98 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-linux-arm64-musl
+99 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-linux-arm64-musl' ]
+100 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-linux-arm64-gnu
+101 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-linux-arm64-gnu' ]
+102 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-linux-arm-gnueabihf
+103 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-linux-arm-gnueabihf' ]
+104 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-freebsd-x64
+105 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-freebsd-x64' ]
+106 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-darwin-x64
+107 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-darwin-x64' ]
+108 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-darwin-arm64
+109 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-darwin-arm64' ]
+110 verbose reify failed optional dependency /home/sandbox/node_modules/@rolldown/binding-android-arm64
+111 silly reify mark deleted [ '/home/sandbox/node_modules/@rolldown/binding-android-arm64' ]
+112 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+113 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz 0ms (cache hit)
+114 http cache react@https://registry.npmjs.org/react/-/react-19.2.8.tgz 0ms (cache hit)
+115 http cache lightningcss-linux-x64-musl@https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz 0ms (cache hit)
+116 http cache @rolldown/binding-linux-x64-musl@https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.2.tgz 0ms (cache hit)
+117 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+118 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz. Extracting by manifest.
+119 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.8.tgz. Extracting by manifest.
+120 silly tarball no local data for lightningcss-linux-x64-musl@https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz. Extracting by manifest.
+121 silly tarball no local data for @rolldown/binding-linux-x64-musl@https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.2.tgz. Extracting by manifest.
+122 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 146ms
+123 silly audit report {}
+124 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 170ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.8.tgz 231ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz 471ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz 549ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.2.tgz 649ms (cache miss)
+129 silly ADD node_modules/scheduler
+130 silly ADD node_modules/react-dom
+131 silly ADD node_modules/react
+132 silly ADD
+133 silly ADD
+134 silly ADD node_modules/lightningcss-linux-x64-musl
+135 silly ADD
+136 silly ADD
+137 silly ADD
+138 silly ADD
+139 silly ADD
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD node_modules/@rolldown/binding-linux-x64-musl
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 verbose cwd /home/sandbox
+176 verbose os Linux 4.14.355-284.741.amzn2.x86_64
+177 verbose node v22.23.2
+178 verbose npm  v10.9.8
+179 verbose exit 0
+180 info ok

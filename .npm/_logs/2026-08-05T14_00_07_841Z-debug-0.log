@@ -1,0 +1,21 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.9.8
+2 info using node@v22.23.2
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/sandbox/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm exec create-next-app@latest ./ --typescript --eslint --tailwind --app --src-dir --import-alias @/* --use-npm --disable-git --yes
+7 verbose argv "exec" "--yes" "--" "create-next-app@latest" "./" "--typescript" "--eslint" "--tailwind" "--app" "--src-dir" "--import-alias" "@/*" "--use-npm" "--disable-git" "--yes"
+8 verbose logfile logs-max:10 dir:/home/sandbox/.npm/_logs/2026-08-05T14_00_07_841Z-
+9 verbose logfile /home/sandbox/.npm/_logs/2026-08-05T14_00_07_841Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:1021313024 maxSize:255328256 maxEntrySize:127664128
+12 http fetch GET 200 https://registry.npmjs.org/create-next-app 81ms (cache revalidated)
+13 silly packumentCache heap:1021313024 maxSize:255328256 maxEntrySize:127664128
+14 silly packumentCache heap:1021313024 maxSize:255328256 maxEntrySize:127664128
+15 verbose cwd /home/sandbox
+16 verbose os Linux 4.14.355-284.741.amzn2.x86_64
+17 verbose node v22.23.2
+18 verbose npm  v10.9.8
+19 verbose exit 1
+20 verbose code 1

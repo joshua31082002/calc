@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "subject": "Build the TradeLink prototype app",
+  "description": "Create and verify the manually scaffolded Next.js/TypeScript TradeLink prototype with responsive role-based customer, pro, and admin experiences and stateful mocked demo interactions.",
+  "activeForm": "Building and verifying the TradeLink prototype",
+  "metadata": {},
+  "status": "completed",
+  "blocks": [],
+  "blockedBy": [],
+  "createdAt": "2026-08-05T14:00:24.056Z",
+  "updatedAt": "2026-08-05T14:09:51.706Z",
+  "owner": null
+}
